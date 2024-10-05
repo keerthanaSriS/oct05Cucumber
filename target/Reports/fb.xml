@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.027564">
+    <testcase classname="To validate Login functionality in Facebook application" name="_2" time="8.027564">
+        <failure message="org.junit.ComparisonFailure: expected:&lt;[hello]&gt; but was:&lt;[jenkins]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at org.stepdefinition.LoginFunctionality.userEnterTheMailAddressOrPhoneNumber(LoginFunctionality.java:81)&#13;&#10;&#9;at ✽.User enter the mail address or phone number(file:src/test/resources/fblogin/LoginFB.feature:26)&#13;&#10;">
+            <![CDATA[Given User is in facebook login page........................................passed
+When User click the forgetten password button...............................passed
+And User enter the mail address or phone number.............................failed
+And User click the search btn...............................................skipped
+Then User enter into invalid credentials page...............................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[hello]> but was:<[jenkins]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.stepdefinition.LoginFunctionality.userEnterTheMailAddressOrPhoneNumber(LoginFunctionality.java:81)
+	at ✽.User enter the mail address or phone number(file:src/test/resources/fblogin/LoginFB.feature:26)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
