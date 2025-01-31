@@ -1,0 +1,162 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2708788300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in facebook login page",
+            "match": {
+              "location": "LoginFunctionality.userIsInFacebookLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-01-31T09:23:19.320Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6506178300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bfr()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "",
+        "description": "    To validate forgetten password scenario",
+        "id": "to-validate-login-functionality-in-facebook-application;",
+        "after": [
+          {
+            "result": {
+              "duration": 388341400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftr(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1654450500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click the forgetten password button",
+            "match": {
+              "location": "LoginFunctionality.userClickTheForgettenPasswordButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182108400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enter the mail address or phone number",
+            "match": {
+              "location": "LoginFunctionality.userEnterTheMailAddressOrPhoneNumber(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "mailId"
+                ]
+              },
+              {
+                "cells": [
+                  "smartskill",
+                  "javaselenium",
+                  "srikeerthana10@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "897655",
+                  "git",
+                  "smartskill123@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "smartskill@gmail.com",
+                  "jenkins",
+                  "skill76@Gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207672700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click the search btn",
+            "match": {
+              "location": "LoginFunctionality.userClickTheSearchBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 910900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User enter into invalid credentials page",
+            "match": {
+              "location": "LoginFunctionality.userEnterIntoInvalidCredentialsPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@alpha"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate Login functionality in Facebook application",
+    "description": "",
+    "id": "to-validate-login-functionality-in-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/fblogin/LoginFB.feature",
+    "tags": [
+      {
+        "name": "@alpha",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

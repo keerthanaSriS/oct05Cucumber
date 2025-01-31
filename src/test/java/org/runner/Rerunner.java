@@ -12,8 +12,10 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src\\test\\resources", glue = "org\\stepdefinition", dryRun = false, monochrome = true,
-strict = true, tags= {"@regression"}, snippets = SnippetType.CAMELCASE, plugin = {
-		 "html:Reports\\HTMLReport", "junit:Reports\\JunitReport\\jreports.xml",
+strict = true, tags= {"@regression"}, snippets = SnippetType.CAMELCASE,
+plugin = {
+		 "html:Reports\\HTMLReport", 
+		 "junit:Reports\\JunitReport\\jreports.xml",
 		"json:Reports\\JsonReport\\jsreport.json",
 		"rerun:C:\\Users\\Srikeerthana\\eclipse-workspace\\Cucumber12pm\\FailedScenario\\failure.txt"
 

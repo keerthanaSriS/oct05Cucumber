@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.711035">
+    <testcase classname="To validate Login functionality in Facebook application" name="_2" time="11.711035">
+        <system-out>
+            <![CDATA[Given User is in facebook login page........................................passed
+When User click the forgetten password button...............................passed
+And User enter the mail address or phone number.............................passed
+And User click the search btn...............................................passed
+Then User enter into invalid credentials page...............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
